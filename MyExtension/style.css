@@ -1,0 +1,26 @@
+body{
+min-width:500px;
+}
+
+#quote{
+ font-size:12px;
+ font-weight:bold;
+ color:#16B6DF;
+}
+
+#author{
+ margin-top:15px;
+ font-size:14px;
+ font-style:italic;
+}
+
+#generate{
+ display:block;
+ margin:15px auto;
+ background:#16B6DF;
+ color:white;
+ font-weight:bold;
+ border:none;
+ padding:10px;
+}
+

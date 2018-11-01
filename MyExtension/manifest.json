@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "qExt",
+  "version": "1.0",
+
+  "description": "An extension to present a random famous quote!",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["https://www.amazon.com/*"],
+  "web_accessible_resources": ["price.json"]
+}
